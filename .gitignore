@@ -1,8 +1,2 @@
-/cmd
-/Dockerfile
-/go.mod
-/internal
-/README
-/templates
-/test
-/testdata
+/build
+
