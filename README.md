@@ -2,7 +2,7 @@
 
 ![HTML](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white) ![GitHub License](https://img.shields.io/github/license/henriquesebastiao/badges)
 
-![Cyberpunk Go JSON2HTML](assets/cyberpunk_banner.png)
+<img src="assets/cyberpunk_banner.png" alt="drawing" style="width:350px;"/>
 
 A small HTTP server that converts JSON into HTML using an HTML template.
 
