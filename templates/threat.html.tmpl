@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Threat data</title>
+  </head>
+  <body>
+    <h1>Threat record</h1>
+    <ul>
+      <li>threatName: {{.ThreatName}}</li>
+      <li>category: {{.Category}}</li>
+      <li>size: {{.Size}}</li>
+      <li>detectionDate: {{.DetectionDate}}</li>
+    </ul>
+    <h2>Variants</h2>
+    <ul>
+      {{range .Variants}}
+        <li>{{.Name}} — {{.DateAdded}}</li>
+      {{else}}
+        <li>No variants listed</li>
+      {{end}}
+    </ul>
+  </body>
+</html>
